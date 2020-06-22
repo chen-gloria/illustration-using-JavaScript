@@ -1,0 +1,36 @@
+{
+	"frames": [
+		{
+			"filename": "shot12_1.png",
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 700,
+				"h": 650
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 700,
+				"h": 650
+			},
+			"sourceSize": {
+				"w": 700,
+				"h": 650
+			}
+		}
+	],
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "spritesheet.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 702,
+			"h": 652
+		},
+		"scale": "1"
+	}
+}

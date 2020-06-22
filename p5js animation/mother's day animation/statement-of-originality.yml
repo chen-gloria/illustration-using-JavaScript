@@ -1,0 +1,36 @@
+# for information & examples on how to fill this out correctly, see
+# https://cs.anu.edu.au/courses/comp1720/resources/faq/#statement-of-originality
+
+declaration: >-
+  I declare that everything I have submitted in this assignment is entirely my
+  own work, with the following exceptions:
+
+
+# add as many "url+licence+comment" entries as necessary
+# (or remove it altogether if you haven't used any external assets)
+assets:
+  # NOTE: "Bliss" is just here as an example, you should remove it
+  - comment: "_Bliss_ by Charles O'Rear"
+    url: https://en.wikipedia.org/wiki/Bliss_(image)
+    licence: fair use
+  
+  - comment: "festival.mp3"
+    url: https://soundclick.com/share.cfm?id=6581656
+    licence: free use and free download
+  
+  - comment: "keyboard.wav"
+    url: https://freesound.org/people/Anton/sounds/137/
+    licence: free use and free download
+
+  - comment: "ringring.mp3"
+    url: https://www.prokerala.com/downloads/ringtones/download.php?id=42676
+    licence: free download, free use
+  
+  - comment: "memory.mp3"
+    url: https://soundclick.com/share.cfm?id=10273972
+    licence: free download
+
+
+# sign *your* name and uid here
+name: Rouyu Chen
+uid: u6539353

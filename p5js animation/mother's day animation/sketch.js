@@ -9,11 +9,11 @@ let shot1Btn;
 
 function preload() {
 
-  shot1_10 = loadImage('assets/shot1_10.png');
-  shot4_09 = loadImage('assets/shot4_09.png');
-  shot4_16 = loadImage('assets/shot4_16.png');
-  shot5_20 = loadImage('assets/shot5_20.png');
-  shot12_03 = loadImage('assets/shot12_03.png');
+  shot1_10 = loadImage('assets/shot-picture/shot1_10.png');
+  shot4_09 = loadImage('assets/shot-picture/shot4_09.png');
+  shot4_16 = loadImage('assets/shot-picture/shot4_16.png');
+  shot5_20 = loadImage('assets/shot-picture/shot5_20.png');
+  shot12_03 = loadImage('assets/shot-picture/shot12_03.png');
 
   acceptance = loadImage('assets/acceptance.png');
 
@@ -30,68 +30,68 @@ function preload() {
   acceptance_music = loadSound('assets/acceptance.mp3');
 
 
-  spritedata1_1 = loadJSON('shot1_1.json');
-  spritesheet1_1 = loadImage('assets/shot1_1.png');
+  spritedata1_1 = loadJSON('shot-json/shot1_1.json');
+  spritesheet1_1 = loadImage('assets/shot-picture/shot1_1.png');
 
-  spritedata1_2 = loadJSON('shot1_2.json');
-  spritesheet1_2 = loadImage('assets/shot1_2.png');
+  spritedata1_2 = loadJSON('shot-json/shot1_2.json');
+  spritesheet1_2 = loadImage('assets/shot-picture/shot1_2.png');
 
-  spritedata2 = loadJSON('shot2.json');
-  spritesheet2 = loadImage('assets/shot2.png');
+  spritedata2 = loadJSON('shot-json/shot2.json');
+  spritesheet2 = loadImage('assets/shot-picture/shot2.png');
 
-  spritedata3 = loadJSON('shot3.json');
-  spritesheet3 = loadImage('assets/shot3.png');
+  spritedata3 = loadJSON('shot-json/shot3.json');
+  spritesheet3 = loadImage('assets/shot-picture/shot3.png');
 
-  spritedata4_1 = loadJSON('shot4_1.json');
-  spritesheet4_1 = loadImage('assets/shot4_1.png');
+  spritedata4_1 = loadJSON('shot-json/shot4_1.json');
+  spritesheet4_1 = loadImage('assets/shot-picture/shot4_1.png');
 
-  spritedata4_2 = loadJSON('shot4_2.json');
-  spritesheet4_2 = loadImage('assets/shot4_2.png');
+  spritedata4_2 = loadJSON('shot-json/shot4_2.json');
+  spritesheet4_2 = loadImage('assets/shot-picture/shot4_2.png');
 
-  spritedata4_3 = loadJSON('shot4_3.json');
-  spritesheet4_3 = loadImage('assets/shot4_3.png');
+  spritedata4_3 = loadJSON('shot-json/shot4_3.json');
+  spritesheet4_3 = loadImage('assets/shot-picture/shot4_3.png');
 
-  spritedata4_4 = loadJSON('shot4_4.json');
-  spritesheet4_4 = loadImage('assets/shot4_4.png');
+  spritedata4_4 = loadJSON('shot-json/shot4_4.json');
+  spritesheet4_4 = loadImage('assets/shot-picture/shot4_4.png');
 
-  spritedata5_1 = loadJSON('shot5_1.json');
-  spritesheet5_1 = loadImage('assets/shot5_1.png');
+  spritedata5_1 = loadJSON('shot-json/shot5_1.json');
+  spritesheet5_1 = loadImage('assets/shot-picture/shot5_1.png');
 
-  spritedata5_2 = loadJSON('shot5_2.json');
-  spritesheet5_2 = loadImage('assets/shot5_2.png');
+  spritedata5_2 = loadJSON('shot-json/shot5_2.json');
+  spritesheet5_2 = loadImage('assets/shot-picture/shot5_2.png');
 
-  spritedata5_3 = loadJSON('shot5_3.json');
-  spritesheet5_3 = loadImage('assets/shot5_3.png');
+  spritedata5_3 = loadJSON('shot-json/shot5_3.json');
+  spritesheet5_3 = loadImage('assets/shot-picture/shot5_3.png');
 
-  spritedata6_1 = loadJSON('shot6_1.json');
-  spritesheet6_1 = loadImage('assets/shot6_1.png');
+  spritedata6_1 = loadJSON('shot-json/shot6_1.json');
+  spritesheet6_1 = loadImage('assets/shot-picture/shot6_1.png');
 
-  spritedata6_2 = loadJSON('shot6_2.json');
-  spritesheet6_2 = loadImage('assets/shot6_2.png');
+  spritedata6_2 = loadJSON('shot-json/shot6_2.json');
+  spritesheet6_2 = loadImage('assets/shot-picture/shot6_2.png');
 
-  spritedata7_1 = loadJSON('shot7_1.json');
-  spritesheet7_1 = loadImage('assets/shot7_1.png');
+  spritedata7_1 = loadJSON('shot-json/shot7_1.json');
+  spritesheet7_1 = loadImage('assets/shot-picture/shot7_1.png');
 
-  spritedata7_2 = loadJSON('shot7_2.json');
-  spritesheet7_2 = loadImage('assets/shot7_2.png');
+  spritedata7_2 = loadJSON('shot-json/shot7_2.json');
+  spritesheet7_2 = loadImage('assets/shot-picture/shot7_2.png');
 
-  spritedata8 = loadJSON('shot8.json');
-  spritesheet8 = loadImage('assets/shot8.png');
+  spritedata8 = loadJSON('shot-json/shot8.json');
+  spritesheet8 = loadImage('assets/shot-picture/shot8.png');
 
-  spritedata9 = loadJSON('shot9.json');
-  spritesheet9 = loadImage('assets/shot9.png');
+  spritedata9 = loadJSON('shot-json/shot9.json');
+  spritesheet9 = loadImage('assets/shot-picture/shot9.png');
 
-  spritedata10 = loadJSON('shot10.json');
-  spritesheet10 = loadImage('assets/shot10.png');
+  spritedata10 = loadJSON('shot-json/shot10.json');
+  spritesheet10 = loadImage('assets/shot-picture/shot10.png');
 
-  spritedata11 = loadJSON('shot11.json');
-  spritesheet11 = loadImage('assets/shot11.png');
+  spritedata11 = loadJSON('shot-json/shot11.json');
+  spritesheet11 = loadImage('assets/shot-picture/shot11.png');
 
-  spritedata12_1 = loadJSON('shot12_1.json');
-  spritesheet12_1 = loadImage('assets/shot12_1.png');
+  spritedata12_1 = loadJSON('shot-json/shot12_1.json');
+  spritesheet12_1 = loadImage('assets/shot-picture/shot12_1.png');
 
-  spritedata12_2 = loadJSON('shot12_2.json');
-  spritesheet12_2 = loadImage('assets/shot12_2.png');
+  spritedata12_2 = loadJSON('shot-json/shot12_2.json');
+  spritesheet12_2 = loadImage('assets/shot-picture/shot12_2.png');
 }
 
 function setup() {
@@ -269,9 +269,9 @@ function setup() {
 function draw() {
   background(255);
   // image(animation[frameCount % animation.length], windowWidth - 700,windowHeight - 600);
-  textSize(32);
-  text((floor)(frameCount / 60), 50, 50);
-  text((floor)(timer), 20, 20);
+  // textSize(32);
+  // text((floor)(frameCount / 60), 50, 50);
+  // text((floor)(timer), 20, 20);
 
   // mother.animate();
   // mother.show();
@@ -501,7 +501,7 @@ function drawSecondScene(){
     }
 
     //Scene 2 Shot 4
-    if(timer < 50 && timer >= 40){
+    if(timer < 50 && timer > 39){
       memory.animate();
       memory.show();
 
